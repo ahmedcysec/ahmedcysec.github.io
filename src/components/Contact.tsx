@@ -2,8 +2,8 @@ import { useState } from 'react';
 import {
 FaBehance,
 FaInstagram,
-FaWhatsapp,
-FaXTwitter
+FaTiktok,
+FaFacebook 
 } from "react-icons/fa6";
 
 export default function Contact() {
@@ -31,17 +31,17 @@ export default function Contact() {
 },
 
 {
- icon: FaXTwitter,
- name:'Twitter',
- handle:'@ahmed.cysec',
- href:'...'
+  icon: FaTiktok,
+  name: 'TikTok',
+  handle: '@ahmed.cysec',
+  href: 'https://www.tiktok.com/@ahmed.cysec'
 },
 
 {
- icon: FaWhatsapp,
- name:'WhatsApp',
- handle:'+201064858547',
- href:'...'
+  icon: FaFacebook,
+  name: 'Facebook',
+  handle: 'Ahmed Mohamed',
+  href: 'https://www.facebook.com/ahmedcysec?locale=ar_AR'
 }
 ];
   return (
